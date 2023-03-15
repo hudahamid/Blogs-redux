@@ -30,3 +30,10 @@ export function fetchPosts(){
     }
 
 }
+
+// redux needs action,reducer , dispatch ,connect ,store
+// action : send data from app to redux store
+// action type : creating functions to return action it is also done in action file
+// dispatch : accept objects that update redux state "actions" it is also done in action file and needed in post page also
+// reducer contain state and action also it has switch statement that will go through all action cases
+// connect: connect react and redux state as probs to react
